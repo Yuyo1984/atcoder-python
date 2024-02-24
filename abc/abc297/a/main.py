@@ -1,0 +1,11 @@
+from sys import stdin
+input = stdin.readline
+
+N, D = map(int, input().split())
+T = [*map(int, input().split())]
+for i in range(len(T)-1):
+    if T[i+1] - T[i] <= D:
+        print(T[i+1])
+        exit()
+
+print(-1)

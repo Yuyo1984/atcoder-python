@@ -1,0 +1,7 @@
+from sys import stdin
+input = stdin.readline
+
+n = int(input())
+s = input().rstrip()
+
+print(s[-1])
