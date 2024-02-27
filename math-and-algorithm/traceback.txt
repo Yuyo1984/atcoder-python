@@ -1,0 +1,43 @@
+python version: 3.12.0 (main, Nov 23 2023, 20:25:03) [Clang 15.0.0 (clang-1500.0.40.1)]
+pudb version: 2024.1
+urwid version: 2...4...6
+Traceback (most recent call last):
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pudb/debugger.py", line 2829, in event_loop
+    toplevel.keypress(self.size, k)
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pudb/ui_tools.py", line 131, in keypress
+    result = self._w.keypress(size, key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/frame.py", line 449, in keypress
+    return self.body.keypress((maxcol, remaining), key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/widget.py", line 798, in keypress
+    return get_delegate(self).keypress(size, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/columns.py", line 1121, in keypress
+    key = w.keypress(size_args[i], key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pudb/ui_tools.py", line 131, in keypress
+    result = self._w.keypress(size, key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/pile.py", line 862, in keypress
+    key = self.focus.keypress(size_args[i], key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/widget.py", line 798, in keypress
+    return get_delegate(self).keypress(size, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/pile.py", line 862, in keypress
+    key = self.focus.keypress(size_args[i], key)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/widget/widget.py", line 798, in keypress
+    return get_delegate(self).keypress(size, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pudb/ui_tools.py", line 136, in keypress
+    return handler(self, size, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/pudb/debugger.py", line 1367, in show_breakpoint
+    pos = self.bp_list._w.focus_position
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuyoyanase/.pyenv/versions/3.12.0/lib/python3.12/site-packages/urwid/listbox.py", line 684, in _get_focus_position
+    raise IndexError("No focus_position, ListBox is empty")
+IndexError: No focus_position, ListBox is empty
+
