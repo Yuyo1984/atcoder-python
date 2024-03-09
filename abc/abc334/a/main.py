@@ -6,3 +6,4 @@ if a > b:
     print('Bat')
 else:
     print('Glove')
+
