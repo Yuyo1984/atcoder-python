@@ -1,6 +1,7 @@
 from sys import stdin
 input = stdin.readline
+import numpy as np
 
-a = int(input())
+N, K = map(int, input().split())
 
-print(a)
+print(len(np.base_repr(N, K)))

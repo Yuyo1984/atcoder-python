@@ -1,11 +1,9 @@
-from sys import stdin
-input = stdin.readline
-
-from atcoder.string import suffix_array
-
 N = int(input())
-P = list(map(int, input().rstrip().split()))
-P = suffix_array(P)
-P = [x + 1 for x in P]
+p = [*map(int, input().split())]
+Q = [0] * n
+m = 0
+for i in range(1, n+1):
+    m = P[i-1]
+    Q[m-1] = i
+print(" ".join(map(str, Q)))
 
-print(*P)
