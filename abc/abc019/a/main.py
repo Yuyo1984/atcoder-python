@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
-
+l = sorted(list(map(int, input().split())))
+print(l[1])
 
