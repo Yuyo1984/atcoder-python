@@ -1,0 +1,7 @@
+# func
+
+# input
+
+# solve
+
+# answer
