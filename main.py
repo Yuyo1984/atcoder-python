@@ -1,32 +1,14 @@
-h, w, n = map(int, input().split())
-q = input()
-
-grid = []
-for i in range(h):
-    grid.append(input())
-
+n = int(input())
+a = list(map(int, input().split()))
 ans = 0
-for i in range(h):
-    for j in range(w):
-        I = i
-        J = j
-        flag = True
-        for k in q:
-            if k == 'U':
-                I -= 1
-            elif k == 'D':
-                I += 1
-            elif k == 'L':
-                J -= 1
-            else:
-                J += 1
-            if I < 0 or I > h or J < 0 or J > w:
-                flag = False
-                break
-            if grid[I][J] == '#':
-                flag = False
-                break
-        if flag:
-            ans += 1
+
+for i in range(n):
+    x = a[i]
+    for j in range(i, n):
+        x = min(x, a[j])
+        if all(val >= x for val in a[i:j+1]):
+            cnt = x * (j-i+1)
+            if cnt >= ans:
+                ans = cnt
 
 print(ans)

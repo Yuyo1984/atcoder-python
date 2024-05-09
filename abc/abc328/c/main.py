@@ -10,4 +10,3 @@ for i in range(q):
     l, r = map(int, input().split())
     ans = p[r-1] - p[l-1]
     print(ans)
-

@@ -25,4 +25,4 @@ for i in range(n - k):
 
 # answer
 print(ans)
-    
+ 
