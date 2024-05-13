@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
+n, i = map(int, input().split())
 
-
+print(n - i + 1)

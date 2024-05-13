@@ -1,4 +1,6 @@
-from sys import stdin
-input = stdin.readline
+n = input()
 
-
+if '9' in n:
+    print("Yes")
+else:
+    print("No")

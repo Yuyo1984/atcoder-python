@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
-
+x, y = map(int, input().split())
+print(x + y // 2)
 

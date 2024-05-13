@@ -1,4 +1,8 @@
-from sys import stdin
-input = stdin.readline
+n = int(input())
 
+
+if n <= 999:
+    print('ABC')
+else:
+    print('ABD')
 

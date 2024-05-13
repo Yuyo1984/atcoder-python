@@ -1,4 +1,8 @@
-from sys import stdin
-input = stdin.readline
+x, y = input().split()
 
-
+if x < y:
+    print('<')
+elif x > y:
+    print('>')
+else:
+    print('=')

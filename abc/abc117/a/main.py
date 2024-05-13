@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
+T, X = map(int, input().split())
 
-
+print(T / X)
