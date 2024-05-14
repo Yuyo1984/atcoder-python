@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
+n, x = map(int, input().split())
 
-
+print(min(n - x, x - 1))

@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
-
+s, t = map(int, input().split())
+print(t-s+1)
 

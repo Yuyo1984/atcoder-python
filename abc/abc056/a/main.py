@@ -1,4 +1,7 @@
-from sys import stdin
-input = stdin.readline
+a, b = input().split()
 
+if a == b:
+    print("H")
+else:
+    print("D")
 

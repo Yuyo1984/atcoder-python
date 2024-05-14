@@ -1,4 +1,5 @@
-from sys import stdin
-input = stdin.readline
-
-
+q = int(input())
+if q == 1:
+    print('ABC')
+else:
+    print('chokudai')

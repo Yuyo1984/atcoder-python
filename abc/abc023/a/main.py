@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
-
+x = input()
+print(int(x[0]) + int(x[1]))
 

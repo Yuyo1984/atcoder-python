@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
-
+x = input()
+print(ord(x)-ord('A')+1)
 

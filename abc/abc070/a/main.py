@@ -1,4 +1,5 @@
-from sys import stdin
-input = stdin.readline
-
-
+n = input()
+if n == n[::-1]:
+    print("Yes")
+else:
+    print("No")

@@ -1,4 +1,8 @@
-from sys import stdin
-input = stdin.readline
-
+a = int(input())
+b = int(input())
+x = a % b
+if x == 0:
+    print(0)
+else:
+    print(b - x)
 
