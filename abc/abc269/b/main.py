@@ -1,4 +1,6 @@
-from sys import stdin
-input = stdin.readline
+grid = []
+for i in range(n):
+    grid.append(list(input()))
+
 
 
