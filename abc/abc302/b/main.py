@@ -1,4 +1,4 @@
-from sys import stdin
-input = stdin.readline
-
-
+h, w = map(int, input().split())
+grid = []
+for i in range(h):
+    grid.append(list(input()))

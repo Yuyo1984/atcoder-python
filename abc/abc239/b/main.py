@@ -1,4 +1,5 @@
-from sys import stdin
-input = stdin.readline
+import math
+x = int(input())
 
+print(math.ceil(x // 10))
 

@@ -1,4 +1,5 @@
-from sys import stdin
-input = stdin.readline
+s = list(input())
 
+s.sort()
 
+print("".join(s))
