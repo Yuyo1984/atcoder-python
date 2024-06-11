@@ -1,4 +1,3 @@
-from sys import stdin
-input = stdin.readline
-
-
+a, b = input().split()
+c = int(a + b)
+print(c * 2)

@@ -1,8 +1,9 @@
 from sys import stdin
+
 input = stdin.readline
 from collections import deque
 
-INF = -2**30
+INF = -(2**30)
 R, C = map(int, input().split())
 sy, sx = map(int, input().split())
 sy -= 1
@@ -38,12 +39,12 @@ def bfs():
             nx = p[1] + dx[i]
             ny = p[0] + dy[i]
 
-            if 0 <= nx < C and 0 <= ny < R and maze[ny][nx] != '#' and d[ny][nx] == INF:
+            if 0 <= nx < C and 0 <= ny < R and maze[ny][nx] != "#" and d[ny][nx] == INF:
                 q.append([ny, nx])
                 d[ny][nx] = d[p[0]][p[1]] + 1
 
     return d[gy][gx]
 
+
 ans = bfs()
 print(ans)
-

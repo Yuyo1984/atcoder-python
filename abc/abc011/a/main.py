@@ -1,6 +1,4 @@
 n = int(input())
-n += 1
-if n == 13:
-    n = 1
-print(n)
-
+if n == 12:
+    n = 0
+print(n + 1)

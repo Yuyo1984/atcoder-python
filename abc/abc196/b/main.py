@@ -1,4 +1,7 @@
-from sys import stdin
-input = stdin.readline
-
-
+x = list(input())
+ans = []
+for c in x:
+    if c == ".":
+        break
+    ans.append(c)
+print("".join(ans))

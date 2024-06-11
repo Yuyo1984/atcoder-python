@@ -1,4 +1,4 @@
-from sys import stdin
-input = stdin.readline
-
-
+s = input()
+l = s.find("A")
+r = s.rfind("Z")
+print(r - l + 1)

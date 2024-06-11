@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240605_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/06/05 20:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240605_3"
+  },
+  "tasks": [
+    {
+      "id": "abc227_b",
+      "label": "C",
+      "title": "KEYENCE building",
+      "url": "https://atcoder.jp/contests/adt_medium_20240605_3/tasks/abc227_b",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc337_b",
+      "label": "D",
+      "title": "Extended ABC",
+      "url": "https://atcoder.jp/contests/adt_medium_20240605_3/tasks/abc337_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc347_c",
+      "label": "E",
+      "title": "Ideal Holidays",
+      "url": "https://atcoder.jp/contests/adt_medium_20240605_3/tasks/abc347_c",
+      "directory": {
+        "path": "e",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc259_c",
+      "label": "F",
+      "title": "XX to XXX",
+      "url": "https://atcoder.jp/contests/adt_medium_20240605_3/tasks/abc259_c",
+      "directory": {
+        "path": "f",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc236_d",
+      "label": "G",
+      "title": "Dance",
+      "url": "https://atcoder.jp/contests/adt_medium_20240605_3/tasks/abc236_d",
+      "directory": {
+        "path": "g",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    }
+  ]
+}

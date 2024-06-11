@@ -1,4 +1,5 @@
-from sys import stdin
-input = stdin.readline
+import math
 
+X = int(input())
 
+print(int(math.pow(X, 1 / 4)))
