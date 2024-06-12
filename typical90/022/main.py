@@ -1,6 +1,1 @@
-import sys
-input = sys.stdin.readline
-import numpy as np
-import math
-
-
+a, b, c = map(int, input().split())
