@@ -7,3 +7,4 @@ AtCoder
 main.py
 Pipfile
 Pipfile.lock
+.DS_Store
