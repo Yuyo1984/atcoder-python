@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240618_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/06/18 19:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240618_3"
+  },
+  "tasks": [
+    {
+      "id": "abc212_b",
+      "label": "C",
+      "title": "Weak Password",
+      "url": "https://atcoder.jp/contests/adt_medium_20240618_3/tasks/abc212_b",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc288_b",
+      "label": "D",
+      "title": "Qualification Contest",
+      "url": "https://atcoder.jp/contests/adt_medium_20240618_3/tasks/abc288_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc340_c",
+      "label": "E",
+      "title": "Divide and Divide",
+      "url": "https://atcoder.jp/contests/adt_medium_20240618_3/tasks/abc340_c",
+      "directory": {
+        "path": "e",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc295_c",
+      "label": "F",
+      "title": "Socks",
+      "url": "https://atcoder.jp/contests/adt_medium_20240618_3/tasks/abc295_c",
+      "directory": {
+        "path": "f",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc351_d",
+      "label": "G",
+      "title": "Grid and Magnet",
+      "url": "https://atcoder.jp/contests/adt_medium_20240618_3/tasks/abc351_d",
+      "directory": {
+        "path": "g",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    }
+  ]
+}

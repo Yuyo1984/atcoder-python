@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240619_3",
+    "title": "AtCoder Daily Training MEDIUM 2024/06/19 20:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240619_3"
+  },
+  "tasks": [
+    {
+      "id": "abc302_b",
+      "label": "C",
+      "title": "Find snuke",
+      "url": "https://atcoder.jp/contests/adt_medium_20240619_3/tasks/abc302_b",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc308_b",
+      "label": "D",
+      "title": "Default Price",
+      "url": "https://atcoder.jp/contests/adt_medium_20240619_3/tasks/abc308_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc236_c",
+      "label": "E",
+      "title": "Route Map",
+      "url": "https://atcoder.jp/contests/adt_medium_20240619_3/tasks/abc236_c",
+      "directory": {
+        "path": "e",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc272_c",
+      "label": "F",
+      "title": "Max Even",
+      "url": "https://atcoder.jp/contests/adt_medium_20240619_3/tasks/abc272_c",
+      "directory": {
+        "path": "f",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc242_d",
+      "label": "G",
+      "title": "ABC Transform",
+      "url": "https://atcoder.jp/contests/adt_medium_20240619_3/tasks/abc242_d",
+      "directory": {
+        "path": "g",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    }
+  ]
+}

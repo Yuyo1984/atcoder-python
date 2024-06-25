@@ -1,4 +1,6 @@
-from sys import stdin
-input = stdin.readline
+S = input()
+T = input()
 
-
+ans = 0
+if T == '1':
+    for c in S:
