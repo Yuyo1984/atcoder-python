@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_medium_20240626_1",
+    "title": "AtCoder Daily Training MEDIUM 2024/06/26 16:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20240626_1"
+  },
+  "tasks": [
+    {
+      "id": "abc318_b",
+      "label": "C",
+      "title": "Overlapping sheets",
+      "url": "https://atcoder.jp/contests/adt_medium_20240626_1/tasks/abc318_b",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc333_b",
+      "label": "D",
+      "title": "Pentagon",
+      "url": "https://atcoder.jp/contests/adt_medium_20240626_1/tasks/abc333_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc308_c",
+      "label": "E",
+      "title": "Standings",
+      "url": "https://atcoder.jp/contests/adt_medium_20240626_1/tasks/abc308_c",
+      "directory": {
+        "path": "e",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc258_c",
+      "label": "F",
+      "title": "Rotation",
+      "url": "https://atcoder.jp/contests/adt_medium_20240626_1/tasks/abc258_c",
+      "directory": {
+        "path": "f",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    },
+    {
+      "id": "abc336_d",
+      "label": "G",
+      "title": "Pyramid",
+      "url": "https://atcoder.jp/contests/adt_medium_20240626_1/tasks/abc336_d",
+      "directory": {
+        "path": "g",
+        "testdir": "test",
+        "submit": "main.py"
+      }
+    }
+  ]
+}
