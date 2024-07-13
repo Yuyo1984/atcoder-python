@@ -1,5 +1,5 @@
 def newton_method(r, a):
-    for i in range(5):
+    for i in range(6):
         p_x = a
         p_y = a * a
 
