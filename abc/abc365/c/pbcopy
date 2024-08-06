@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+
+"""
+File: main.py
+Description:
+Author:Yuyo1984
+Date: 2024-08-03
+"""
+
+# func
+
+
+def main():
+    # input
+    n, m = map(int, input().split())
+    A = [*map(int, input().split())]
+    # solve
+    A = sorted(A)
+    ans = 0
+    le = 0
+    ri = 2 * 10**5 + 1
+    while True:
+        mid = (le + ri) // 2
+        s_now = 0
+        for i in range(n):
+            s_now += min(A[i], mid)
+        if s_now < m:
+            le = mid + 1
+        elif s_now > m:
+            ri = mid
+        if le == ri:
+            ans = mid
+            break
+    if ans * n > m:
+        ans = "infinite"
+    # output
+    print(ans)
+
+
+if __name__ == "__main__":
+    main()
